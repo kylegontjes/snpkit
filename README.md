@@ -7,6 +7,9 @@
 
 SNPKIT is a variant detection workflow that can be easily deployed for infectious disease outbreak investigations and other clinical microbiology projects. The workflow takes Illumina fastq reads and annotated reference genome as input, calls variants using SAMTOOLS, GATK and Freebayes, generates an annotated SNP/Indel matrix for variants diagnostics and visualizations and a phylogenetic tree based on the curated/filtered variants.
 
+## Fork notice
+This was forked from Ali's https://github.com/alipirani88/snpkit.git directory for quality improvement. 
+
 ## Contents
 
 - [Installation](#installation)
@@ -20,7 +23,7 @@ The pipeline can be set up in two easy steps:
 > 1. Clone the github directory onto your system.
 
 ```
-git clone https://github.com/alipirani88/snpkit.git
+git clone https://github.com/kylegontjes/snpkit.git
 
 ```
 
