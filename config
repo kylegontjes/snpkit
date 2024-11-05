@@ -34,7 +34,7 @@ notification: BEGIN,FAIL,REQUEUE
 # Trimmomatic
 [Trimmomatic]
 trimmomatic_bin: //
-adaptor_filepath: /home/apirani/.conda/envs/variantcalling_clone/share/trimmomatic-0.39-1/adapters/combined_Adaptors.fa
+adaptor_filepath: /nfs/turbo/umms-esnitkin/data_sharing/adapters/combined_adapters.fa
 seed_mismatches: 2
 palindrome_clipthreshold: 30
 simple_clipthreshold: 10
