@@ -26,7 +26,7 @@ resources: --nodes=1 --ntasks=1 --cpus-per-task=2 --mem=10g --time=125:00:00
 large_resources: --nodes=1 --ntasks-per-node=12 --mem=47000mb --time=250:00:00
 email: kgontjes@umich.edu
 partition: standard
-flux_account: esnitkin99
+flux_account: esnitkin1
 notification: BEGIN,FAIL,REQUEUE
 
 # Set command line Parameters for individual tools used by snpkit
@@ -298,6 +298,12 @@ Ref_Name: NJST258_2.fasta
 # path to the reference genome fasta file.
 Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2/
 
+# Name of the reference genome. Provide this value with -index_name argument.
+[LVU_1_4819_unicycler_polypolish]
+# Name of reference genome fasta file.
+Ref_Name: LVU_1_4819_unicycler_polypolish.fasta
+# path to the reference genome fasta file.
+Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/LVU_1_4819_unicycler_polypolish/
 
 # This setting is deprecated. snpkit uses conda environments for 
 # Set bin folder path. Please make sure all the executables are placed in bin folder. Also make sure the path for individual tools are correct.
