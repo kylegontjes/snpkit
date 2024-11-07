@@ -292,11 +292,32 @@ Ref_Name: KPPR1.fasta
 Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/KPPR1/
 
 # Name of the reference genome. Provide this value with -index_name argument.
-[NJST258_2]
+[NJST258_2_chromosome]
 # Name of reference genome fasta file.
-Ref_Name: NJST258_2.fasta
+Ref_Name: NJST258_2_chromosome.fasta
 # path to the reference genome fasta file.
-Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2/
+Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2_chromosome/
+
+# Name of the reference genome. Provide this value with -index_name argument.
+[NJST258_2_pC1]
+# Name of reference genome fasta file.
+Ref_Name: NJST258_2_pC1.fasta
+# path to the reference genome fasta file.
+Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2_pC1/
+
+# Name of the reference genome. Provide this value with -index_name argument.
+[NJST258_2_pC2]
+# Name of reference genome fasta file.
+Ref_Name: NJST258_2_pC2.fasta
+# path to the reference genome fasta file.
+Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2_pC2/
+
+# Name of the reference genome. Provide this value with -index_name argument.
+[NJST258_2_pC3]
+# Name of reference genome fasta file.
+Ref_Name: NJST258_2_pC3.fasta
+# path to the reference genome fasta file.
+Ref_Path: /nfs/turbo/umms-esnitkin/data_sharing/reference/NJST258_2_pC3/
 
 # Name of the reference genome. Provide this value with -index_name argument.
 [LVU_1_4819_unicycler_polypolish]
