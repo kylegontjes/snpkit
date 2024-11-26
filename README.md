@@ -121,6 +121,7 @@ The pipeline requires three main inputs - readsdir, name of the reference genome
 
 **3. index:** a reference genome index name as specified in a config file. For example; if you have set the reference genome path in config file as shown below, then the required value for command line argument -index would be -index KPNIH1
 
+NOTE: The index_name must correspond to the fasta name  
 ```
 [KPNIH1]
 # path to the reference genome fasta file.
